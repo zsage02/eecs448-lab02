@@ -34,9 +34,9 @@ void Test_LinkedList::runTests()
 	score += test13() ? 2 : 0; 
 	score += test14() ? 2 : 0; 
 	score += test15() ? 5 : 0; 
-	score += test16() ? 10 : 0; 
+	score += test16() ? 20 : 0; 
 	score += test17() ? 5 : 0; 
-	score += test18() ? 10 : 0; 
+	score += test18() ? 20 : 0; 
 	
 	std::cerr << "Score: " << score << " / " << MAX_SCORE << std::endl;
 }
